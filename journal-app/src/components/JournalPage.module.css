@@ -9,7 +9,7 @@
 }
 .journalContainer{
     display: flex;
-    border: 2px solid red;
+    border: 2px solid PINK;
     margin: 30px 20px 0px 20px;
     justify-content: space-between;
     padding: 0px 30px;
