@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #cd184f;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+    align-items: center;
+    color: #ffe3b3;
+}
+header .logo{
+    font-family: 'Pacifico';
+}
+.login button{
+    width: 70px;
+    height: 35px;
+
+}

@@ -1,0 +1,57 @@
+.heroPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 60px;
+}
+.main{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+    color: #d85e83;
+}
+.main h1{
+    font-size: 3.7rem;
+
+}
+.main h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.main button{
+    width: 200px;
+    height: 45px;
+    border-radius: 35px;
+}
+.main button:hover{
+    background-color: #be5050;
+    color: #ffe3b3;
+}
+
+.imageBox{
+    width: 45%;
+}
+.fontFamily{
+    font-family: "Poppins";
+}
+button{
+    outline: none;
+    font-size: 18px;
+    background-color: #cd184f;
+    border: none;
+    cursor: pointer;
+    color: #ffe3b3;
+    font-family: "Poppins";
+}
+.heroImage{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 10px;
+}
